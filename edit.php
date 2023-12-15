@@ -28,9 +28,9 @@ $juego = $stmt->fetch();
 <form action="edit.php" method="post">
     <input type="hidden" name="id" value="<?php echo $juego['id']; ?>">
     Nombre: <input type="text" name="nombre" value="<?php echo $juego['nombre']; ?>"><br>
-    Descripción: $<input type="text" name="descripcion" value="<?php echo $juego['descripcion']; ?>"><br>
-    Edición: $<input type="text" name="edicion" value="<?php echo $juego['edicion']; ?>"><br>
-    Precio: $<input type="text" name="precio" value="<?php echo $juego['precio']; ?>"><br>
-    Stock: $<input type="number" name="stock" value="<?php echo $juego['stock']; ?>"><br>
+    Descripción: <input type="text" name="descripcion" value="<?php echo $juego['descripcion']; ?>"><br>
+    Edición: <input type="text" name="edicion" value="<?php echo $juego['edicion']; ?>"><br>
+    Precio: <input type="text" name="precio" value="<?php echo $juego['precio']; ?>"><br>
+    Stock: <input type="number" name="stock" value="<?php echo $juego['stock']; ?>"><br>
     <input type="submit" value="Guardar Cambios">
 </form>

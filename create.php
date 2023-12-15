@@ -6,7 +6,7 @@ $message = '';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nombre = $_POST['nombre'];
     $descripcion = $_POST['descripcion'];
-    $edicion = $_POST['edicion']
+    $edicion = $_POST['edicion'];
     $precio = $_POST['precio'];
     $stock = $_POST['stock'];
 
@@ -52,7 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <label for="stock">Stock:</label>
     <input type="number" name="stock" id="stock" required>
     <br>
-    <input type="submit" value="Añadir Jabón">
+    <input type="submit" value="Añadir Juego">
 </form>
 
 </body>

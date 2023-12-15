@@ -23,10 +23,10 @@ $Juegos = $stmt->fetchAll();
     <?php foreach ($Juegos as $Juego): ?>
         <tr>
             <td><?php echo $Juego['nombre']; ?></td>
-            <td>$<?php echo $Juego['descripcion']; ?></td>
-            <td>$<?php echo $Juego['edicion']; ?></td>
-            <td>$<?php echo $Juego['precio']; ?></td>
-            <td>$<?php echo $Juego['stock']; ?></td>
+            <td><?php echo $Juego['descripcion']; ?></td>
+            <td><?php echo $Juego['edicion']; ?></td>
+            <td><?php echo $Juego['precio']; ?>€</td>
+            <td><?php echo $Juego['stock']; ?></td>
             <td>
                 <a href="edit.php?id=<?php echo $Juego['id']; ?>">Editar</a>
                 <a href="delete.php?id=<?php echo $Juego['id']; ?>">Eliminar</a>
